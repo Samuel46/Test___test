@@ -17,7 +17,9 @@ body {
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #c79478;
+  /* background-color: rgba(31, 46, 48, 0.6); */
+  background-color: #3d5060;
+  opacity: 0.6;
   color: white;
   text-transform: uppercase;
 }
@@ -78,7 +80,7 @@ body {
   background-color: #f6cd0a;
 }
 
-/* section me */
+/* This is the section me */
 
 .section__me {
   display: flex;
