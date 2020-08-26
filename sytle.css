@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: #e4e4e4;
+}
+
+.wrapper {
+  padding-right: 70px;
+  padding: letf;
+}
+
+.header__info {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #c79478;
+  color: white;
+  text-transform: uppercase;
+}
+
+.header__title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: white;
+  background-color: #3d5060;
+  text-transform: uppercase;
+}
+.header__title > h1 {
+  font-size: 37px;
+  padding: 5px;
+}
+.header__title h5 {
+  object-fit: cover;
+  color: #f6cd0a !important;
+  letter-spacing: 10px;
+}
+.section__about {
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.image {
+  padding: 20px;
+}
+
+.section__aboutContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.section__aboutTitle {
+  color: #3d5060;
+  font-weight: 800;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.desc {
+  display: flex;
+  padding: 40px;
+}
+.section__aboutTitle {
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f6cd0a;
+}
+
+/* section me */
+
+.section__me {
+  display: flex;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-around;
+}
+.section__me h2 {
+  background-color: #f6cd0a;
+  padding: 40px;
+  text-transform: uppercase;
+  color: #3d5060;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.section__meHobby {
+  background-color: white;
+  padding-bottom: 50px;
+}
+.section__meHobby ul {
+  height: 100%;
+  padding-top: 20px;
+  padding-left: 45px;
+}
+li {
+  line-height: 1.5rem !important;
+  width: 90%;
+}
+.section__meGoals ul {
+  padding-top: 20px;
+}
+.section__meGoals {
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+/* This is the table  section */
+.section__table {
+  display: flex;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px;
+}
+
+#table .center {
+  text-align: center !important;
+}
+
+#table td,
+#table th {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: white;
+  margin-left: -100px;
+}
+
+#table tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+#table th {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #f6cd0a;
+  color: #3d5060;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+/* section foooter */
+.section__footer {
+  display: flex;
+  padding: 70px;
+  flex-direction: column;
+  background-color: #3d5060;
+}
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.section__footer h4 {
+  padding-top: 10px;
+  color: #f6cd0a;
+}
